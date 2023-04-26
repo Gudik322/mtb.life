@@ -1,0 +1,189 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(233, 245, 255);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+header {
+    background-color: rgb(47, 146, 238);
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://geographical.co.uk/wp-content/uploads/somalaya-mountain-range-title.jpg);
+    background-size: contain;
+}
+
+main {
+    padding-top: 3%;
+    background: rgb(130,115,121);
+    background: radial-gradient(circle, rgba(130,115,121,1) 0%, rgba(22,97,186,0.258140756302521) 100%);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    background-color: #ffffffb2;
+    padding: 5px;
+    
+}
+
+
+#first-section {
+    background-color: rgb(168, 205, 238);
+    padding: 2%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+}
+
+#first-section img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+
+#first-section h3 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+#second-section {
+    margin-top: 2%;
+    border: 1px solid black;
+    padding: 2%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    box-sizing: border-box;
+    background-color: rgb(168, 205, 238);
+}
+
+#second-section img {
+    width: 100%;
+}
+
+#second-section h3 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 425px) {
+
+    header{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    header h1 {
+        font-size: 1rem;
+        background-color: #ffffffb2;
+        padding: 0px;
+        
+        
+    }
+
+    #first-section, #second-section {
+        width: 100%;
+        padding: 2% 0 2% 0;
+    }
+    #first-section img  {
+        width: 40%;
+    }
+
+    #first-section h3, #second-section h3 {
+        padding: 0 2% 0 2%;
+    }
+}
+
+#categories-header {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#photo-categories {
+    display: flex;
+    margin-left: 5%;  
+    flex-direction: row-reverse;
+}
+
+#photo-categories img {
+    width: 55%;
+    
+}
+
+#photo-categories h3 {
+    border-left: 1px solid black;
+    padding: 1% 0% 2% 2%;
+}
+
+@media only screen and (max-width: 425px) {
+    #photo-categories {
+        flex-direction: column;
+        width: 75%;
+        padding-left: 25%;
+        padding-right: auto;
+        
+        
+    }
+
+    #photo-categories h3 {
+        text-align: left;
+    }
+    hr {
+        display: none
+        ;
+    }
+
+    
+}
+
+footer {
+    margin-top: 3%;
+    padding: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(11,10,17,1) 54%, rgba(148,187,233,1) 100%);
+    color: #ffffff;  
+    height: 25px;
+}
+
+.content {
+    display: block;
+}
+
+.designer{
+    float: left;
+}
+.copyright {
+    float: right;
+}
+
+.content {
+    display: block;
+}
+
+hr {
+    margin-top: 1%;
+    border: none;
+    border-top: 3px double #0011ff;
+    color: #ff00b3;
+    overflow: visible;
+    text-align: center;
+    height: 10px;
+}
